@@ -2,7 +2,153 @@ body {
 	color: #666666;
 	background-color: #f9f8f6;
 	background-image: url("../images/rock_wall_background.jpg");
-	font-family: Georgia, Times, serif;
+	font-family: Candara;
 	line-height: 1.4em;
 	margin: 0px;
 }
+
+.wrapper {
+	width: 940px;
+	margin: 20px auto 20px auto;
+	border: 2px solid #000000;
+	background-color: #1a43ab;}
+	
+header {
+	height: 160px;
+	background-color: #1a43ab;
+	}
+	
+	
+h1 {
+	width: 940px;
+	height: 130px;
+	text-align: center;
+	color: #ffffff;
+	font-family: Candara;
+	}
+	
+nav, footer {
+	clear: both;
+	color: #ffffff;
+	background-color: #1a43ab;
+	height: 30px;
+	}
+	
+nav ul {
+	margin: 0px;
+	padding: 5px 0px 5px 30px;
+	}
+	
+nav li {
+	display: inline;
+	margin-right: 40px;
+	}
+nav li a {
+	color: #ffffff;
+	}
+	
+nav li a:hover, nav li a.current {
+	color: #306AFC;
+	}
+	
+section.courses {
+	float: left;
+	width: 659px;
+	}
+	
+section.search {
+	float: left;
+	width: 659px;
+	}
+	
+section.search p {
+	margin: 20px 10px 0 10px;
+	text-align: right;
+	}	
+	
+section.search input {
+	width: 20em;
+	}
+	
+article {
+	clear: both;
+	overflow: auto;
+	width: 100%;
+	}
+	
+section.courses h2 {
+	margin-top: 40px;
+	}
+	
+figure {
+	float: left;
+	width: 290px;
+	height: 220px;
+	padding: 5px;
+	margin: 20px;
+	}
+	
+figcaption {
+	font-size: 90%;
+	text-align: left;
+	}
+	
+aside {
+	width: 230px;
+	float: left;
+	padding: 0px 0px 0px 20px;
+	}
+	
+aside section a {
+	display: block;
+	padding: 10px;
+	}
+	
+aside section a:hover {
+	color: #ffffff;
+	background-color: #306AFC;
+	}
+	
+a {
+	color: #ffffff;
+	text-decoration: none;
+	}
+	
+h1, h2, h3 {
+	font-weight: normal;
+	}
+	
+h2 {
+	margin: 10px 0px 5px 0px;
+	padding: 0px;
+	}
+	
+h3 {
+	margin: 0px 0px 10px 0px;
+	color: #ffffff;
+	}
+	
+aside h2 {
+	padding: 30px 0px 10px 0px;
+	color: #ffffff;
+	}
+	
+footer {
+	font-size: 80%;
+	padding: 7px 0px 0px 20px;
+	}
+	
+section.courses p.hidden {
+	display: none;
+	}
+	
+section.courses	p span{
+	cursor: pointer;
+	font-weight: bold;
+	}
+
+img{
+        max-width: 100%;
+        max-height: 100%;
+        display: block;
+}		
