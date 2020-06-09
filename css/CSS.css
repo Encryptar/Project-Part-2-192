@@ -66,6 +66,14 @@ header a:hover{
 .search{
 	background-color: #35424a;
 	padding: 15px;
-	color: #ffffff;
-	
+	color: #ffffff;	
 }
+
+.search button {
+	float: right;
+}
+
+.search input {
+	float: right;
+}
+
