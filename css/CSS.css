@@ -60,6 +60,7 @@ header a:hover{
 	min-height: 400px;
 	background: url("../images/showcase.jpg") no-repeat 0 -400px;
 	background-position: center;
+	
 	border-bottom: #e00d21 3px solid;
 }
 
@@ -70,10 +71,13 @@ header a:hover{
 }
 
 .search button {
-	float: right;
+	float: center;
 }
 
 .search input {
-	float: left;
+	float: center;
+}
+.search h2{
+	margin: 35%;
 }
 
