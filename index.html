@@ -4,7 +4,7 @@
 		<title>Think Global | Welcome</title>
 		<link rel="stylesheet" type="text/css" href="css/CSS.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-		<script src="javascript/think_global_javascript.js"></script>
+		<script src="javascript/javascript.js"></script>
 	</head>
 	<body>
 		<div class= "wrapper">
@@ -21,22 +21,27 @@
 					</nav>
 				</div>	
 			</header>
-			<div class="pictures">
-			</div>
-			<section class="search">
-				<p class="search">
-					<h3>Search for a program</h3>
-					<input placeholder="Find a Programme" type="text" id="searchText">
-					<button type="submit" onclick="search()">Search</button>
-				</p>
-			</section>
-			<section class="courses" id="coursesList"></section>
+			<div class="pictures"></div>
 			
-			<section>		
-			<footer>
+			<div class="Wrap2">
+				<section class="search">
+					<p>
+						<h2>Search for a program</h2>
+						<input placeholder="Find a Programme" type="text" id="searchText">
+						<button type="submit" onclick="search()">Search</button>
+					</p>
+				</section>
+				<aside>
+					<h2>Popular Courses</h2>
+					<li><a href="">Japanese Internship</a></li>
+					<li><a href="">American Exchange Program</a></li>
+					<li><a href="">Virtual Courses</a></li>
+				</aside>
+			<div>
+			<section class="courses" id="coursesList"></section>
+		`	<footer>
 				&copy; 2020 Think Global
 			</footer>
-			</section>
 		</div>
 	</body>
 </html>

@@ -2,7 +2,7 @@ body {
 	font: 15px/1.5 Candara;
 	padding: 0;
 	margin: 0;
-	background-color: #f4f4f4;
+	background-color: #35424a;
 }
 .container {
 	width: 80%;
@@ -63,11 +63,46 @@ header a:hover{
 	border-bottom: #e00d21 3px solid;
 }
 
-.search{
-	background-color: #35424a;
-	padding: 15px;
-	color: #ffffff;	
+.Wrap2 {
+	width: 940px;
+	margin: 0px auto 20px auto;
+	border: 2px solid #e00d21;
+	background-color: #ffffff;
+	overflow: auto;
 }
 
+.search{
+	padding: 15px;
+	height: 200px;
+	float: left;
+	border: 1px solid #e00d21;
+}
 
+aside{
+	padding: 15px;
+	height: 200px;
+	float: right;
+	border: 1px solid #e00d21;
+}
+
+aside li a{
+	text-decoration: none;
+}
+
+article {
+    clear: both;
+    overflow: auto;
+    width: 100%;
+}
+
+figure {
+	float: left;
+	border: #e00d21 1px solid;
+	margin: 20px;
+	padding: 5px;
+}
+
+footer{
+	float: left;
+}
 
