@@ -19,10 +19,19 @@ const COURSES = [
 		id: "3",
 		course_title: "Virtual Courses",
 		course_subtitle: "Learn from others across the globe without leaving",
-		course_description: "Take your pic from a large selection of across-the-globe-universities to learn new and exciting things without the expense of travel.",
+		course_description: "Take your pick from a large selection of across-the-globe-universities to learn new and exciting things without the expense of travel.",
 		image: "images/virtual_courses.jpg",
 		image_title: "Virtual Courses"
 	},
+	{
+		id: "4",
+		course_title: "European Exchange",
+		course_subtitle: "Spend a year over in Europe learning physics",
+		course_description: "Learn physics from masters at a selection of european universities",
+		image: "images/European Studying.jpg",
+		image_title: "European Exchange"
+	},
+	
 ];
 
 function createCourseHTML(course) {
